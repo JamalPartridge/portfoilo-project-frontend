@@ -1,6 +1,5 @@
 .App {
-	background-image: url('./assets/val-logo.png');
-	background: hidden;
+	background-color: whitesmoke;
 }
 
 
@@ -25,12 +24,12 @@
 }
 
 img {
-	width: auto;
+	width: 150px;
 	
 }
 
 li {
-	background-color: whitesmoke;
+	background-color: black;
 	box-shadow: 0px 0px 12px;
 	margin: 20px;
 	padding: 10px;

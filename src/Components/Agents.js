@@ -20,7 +20,7 @@ function Agents () {
                 {agents.map((agent) => {
                     return (
                         <li style={{width: '300px', border: '1px black'}} key={agent.id}>
-                        <Agent agent={agent} />
+                            <Agent agent={agent} />
                         </li>
                     );
                 })}
