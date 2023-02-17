@@ -16,13 +16,14 @@ function Agents () {
 
     return (
         <div className='Agents'>
-            <ul className='agents' style={{ listStyle: 'none'}}>{agents.map((agent) => {
-                return (
-                    <li style={{width: '300px', border: '1px black'}} key={agent.id}>
+            <ul className='agents' style={{ listStyle: 'none'}}>
+                {agents.map((agent) => {
+                    return (
+                        <li style={{width: '300px', border: '1px black'}} key={agent.id}>
                         <Agent agent={agent} />
-                    </li>
-                )
-            })}
+                        </li>
+                    );
+                })}
             </ul>
         </div>
     )

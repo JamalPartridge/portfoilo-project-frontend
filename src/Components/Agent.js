@@ -5,7 +5,7 @@ function Agent ({ agent }) {
         <div style={{
             padding: 5,
             height: 'auto',
-            textAlign: 'left',
+            textAlign: 'center',
             margin: '50px auto'
         }}>
             <Link to={`/agents/${agent.id}`}>
