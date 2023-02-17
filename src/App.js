@@ -12,17 +12,18 @@ import ShowAgent from "./Pages/Show";
 // COMPONENTS
 import NavBar from "./Components/NavBar";
 import './app.css'
+import { useState } from "react";
 import WelcomeAlert from "./Components/WelcomeAlert";
 
 function App() {
+  const [alert, setAlert] = useState(true)
 
   return (
     <div className="App">
       <Router>
         <NavBar />
-        <WelcomeAlert />
         <Routes>
-          <Route path="/" />
+          <Route path="/" element={<WelcomeAlert funcNavi={setAlert} />} />
           <Route path="/agents" element={<Index />} />
           <Route path="/agents/new" element={<NewAgent />} />
           <Route path="/agents/:id" element={<ShowAgent />} />

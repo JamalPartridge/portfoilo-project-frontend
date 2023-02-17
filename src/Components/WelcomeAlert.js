@@ -9,9 +9,9 @@ function WelcomeAlert() {
 
   return (
     showAlert && (
-      <div className="alert alert-success" role="alert">
+      <div className="alert" role="alert">
         <p>Welcome to Valorant Generator 2.0!</p>
-        <button type="button" className="btn-close" aria-label="Close" onClick={handleClose}>Close</button>
+        <button type="button" className="button" onClick={handleClose}>Close</button>
       </div>
     )
   );

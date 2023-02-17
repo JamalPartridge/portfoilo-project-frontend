@@ -64,9 +64,7 @@ function AgentNewForm() {
                 <input
                     id="image"
                     type="text"
-                    pattern="http[s]*://.+"
                     value={agent.image}
-                    placeholder="http://"
                     onChange={handleTextChange}
                 />
                 <br />

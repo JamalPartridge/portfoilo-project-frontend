@@ -1,5 +1,9 @@
 .App {
-	background-color: whitesmoke;
+	background-repeat:initial;
+	justify-content: space-between;
+	background-size: auto;
+	background-image: url("./assets/valorant-offwhitelaunch.png");
+
 }
 
 
@@ -17,8 +21,17 @@
 	background-image: url("./assets/valorant-computer-background-logo-ibhl66l11gnsywgw.jpg");
 }
 
+.Show{
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+	width: 400px;
+  	position: relative;
+}
+
 .agents {
 	display: flex;
+	height: auto;
   	justify-content: space-between;
   	flex-wrap: wrap;
 }
@@ -29,7 +42,7 @@ img {
 }
 
 li {
-	background-color: black;
+	background-color: whitesmoke;
 	box-shadow: 0px 0px 12px;
 	margin: 20px;
 	padding: 10px;
